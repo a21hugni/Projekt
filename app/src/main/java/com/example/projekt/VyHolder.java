@@ -10,10 +10,10 @@ public class VyHolder extends RecyclerView.ViewHolder {
     public TextView ID;
     public TextView name;
     public TextView location;
-    public TextView category;
     public TextView size;
+    public TextView company;
 
-    public MyViewHolder(@NonNull View itemView) {
+    public VyHolder(@NonNull View itemView) {
         super(itemView);
         name = itemView.findViewById(R.id.name);
         size = itemView.findViewById(R.id.size);

@@ -5,15 +5,15 @@ public class Grejer {
     private int ID;
     private String name;
     private String location;
-    private String category;
     private int size;
+    private String company;
 
-    public Grejer(int ID, String name, String location, String category, int size) {
+    public Grejer(int ID, String name, String location, String company, int size) {
         this.ID = ID;
         this.name = name;
         this.location = location;
-        this.category = category;
         this.size = size;
+        this.company = company;
     }
 
     public int getID() {
@@ -40,20 +40,20 @@ public class Grejer {
         this.location = location;
     }
 
-    public String getCategory() {
-        return category;
-    }
-
-    public void setCategory(String category) {
-        this.category = category;
-    }
-
     public int getSize() {
         return size;
     }
 
     public void setSize(int size) {
         this.size = size;
+    }
+
+    public String getCompany() {
+        return company;
+    }
+
+    public void setCompany(String company) {
+        this.company = company;
     }
 
 }

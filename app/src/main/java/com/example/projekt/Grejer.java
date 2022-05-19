@@ -5,15 +5,15 @@ public class Grejer {
     private int ID;
     private String name;
     private String location;
-    private int size;
     private String company;
+    private int size;
 
     public Grejer(int ID, String name, String location, String company, int size) {
         this.ID = ID;
         this.name = name;
         this.location = location;
-        this.size = size;
         this.company = company;
+        this.size = size;
     }
 
     public int getID() {

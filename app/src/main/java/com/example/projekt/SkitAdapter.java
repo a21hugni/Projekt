@@ -28,7 +28,7 @@ public class SkitAdapter extends RecyclerView.Adapter<VyHolder> {
         holder.ID.setText(grejer.get(position).getName());
         holder.name.setText(grejer.get(position).getName());
         holder.location.setText(grejer.get(position).getName());
-        holder.category.setText(grejer.get(position).getName());
+        holder.company.setText(grejer.get(position).getName());
         holder.size.setText(String.valueOf(grejer.get(position).getSize()));
     }
 

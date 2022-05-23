@@ -2,13 +2,13 @@ package com.example.projekt;
 
 public class Grejer {
 
-    private int ID;
+    private String ID;
     private String name;
     private String location;
     private String company;
     private int size;
 
-    public Grejer(int ID, String name, String location, String company, int size) {
+    public Grejer(String ID, String name, String location, String company, int size) {
         this.ID = ID;
         this.name = name;
         this.location = location;
@@ -16,11 +16,11 @@ public class Grejer {
         this.size = size;
     }
 
-    public int getID() {
+    public String getID() {
         return ID;
     }
 
-    public void setID(int ID) {
+    public void setID(String ID) {
         this.ID = ID;
     }
 

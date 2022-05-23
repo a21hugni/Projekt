@@ -15,8 +15,11 @@ public class VyHolder extends RecyclerView.ViewHolder {
 
     public VyHolder(@NonNull View itemView) {
         super(itemView);
+        ID = itemView.findViewById(R.id.id);
         name = itemView.findViewById(R.id.name);
+        location = itemView.findViewById(R.id.place);
         size = itemView.findViewById(R.id.size);
+        company = itemView.findViewById(R.id.company);
     }
 
 }
